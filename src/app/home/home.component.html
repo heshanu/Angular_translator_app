@@ -1,4 +1,17 @@
+<h1>Ninja </h1>
 
+<form action="">
+    <label for="">Filter ninjas by name</label>
+    <input type="text" />
+</form>
 
-<router-outlet></router-outlet>
+<ul id="ninja-listing">
+    <li *ngFor ="let ninja of ninjas1">
+        <div class="single-ninja">
+
+        </div>
+    </li>
+</ul>
+
+<button (click)="logIt()">CLick</button>
 <!--<ng-content></ng-content>-->
